@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #0f1131;
+  background-color:#0f1131;
   color: #efeaff;
 }
 a {
@@ -19,13 +19,6 @@ header {
   justify-content: center;
   width: 100%;
   height: 105px;
-  border-bottom: 1px white solid;
-  position: absolute;   /* o fixed, si querés que te siga al hacer scroll */
-  top: 0;
-  left: 0;
-  width: 100%;
-  background: transparent;
-  z-index: 10;
 }
 /*padre de etiqueta ul*/
 nav,
@@ -102,14 +95,15 @@ nav,
 }
 /*titulo: ¿que estas buscando?*/
 .subtitulo1 {
-  /*background-color: azure;*/
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 50px;
   align-items: center;
-  /*color: #0f1131;*/
+  text-align: center;
   width: 100%;
+  min-height: 200px;
+  padding: 20px;
+  /*color: #0f1131;*/
 }
 .recursos-e-instituciones {
   padding-top: 20px;
@@ -128,6 +122,14 @@ nav,
   /*background-color: #fffeea;*/
   /*debe tener un numero fijo para que los 
   hijos usen porcentajes de su padre*/
+}
+/* Div Hijo que contiene el texto de los recursos*/
+.contenedor-de-recursos-img-y-texto {
+  height: 100%;
+  /*100% del espacio del padre*/
+  width: 100%;
+  margin: 0;
+  padding: 0px;
 }
 
 /* hijos div que contienen al texto de los recursos */
