@@ -20,6 +20,12 @@ header {
   width: 100%;
   height: 105px;
   border-bottom: 1px white solid;
+  position: absolute;   /* o fixed, si querés que te siga al hacer scroll */
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: transparent;
+  z-index: 10;
 }
 /*padre de etiqueta ul*/
 nav,
@@ -30,25 +36,21 @@ nav,
   justify-content: center;
   align-items: center;
 }
-/*logo en navbar y footer*/
-.menu-img {
-  width: 50%;
+/*logo en navbar*/
+.logo{
+  background-color: transparent;
+  width: 40%;
   height: 100%;
-  object-fit: contain;
-  overflow: hidden;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
   /*background-color: rgb(20, 102, 102);*/
-}
-.menu-img img,
-.footer-img img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  display: block;
 }
 /*contenedor de enlaces de menu*/
 .menu {
   display: flex;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
   list-style: none;
   /*background-color: aqua;*/
@@ -59,37 +61,37 @@ nav,
   gap: 10px;
   /*gap espacia cada li*/
 }
-
 .menu li,
 .footer li {
   /*alinea los elementos del menú*/
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 20px;
   /*width: 100% a cada li obliga a cada botón a estirarse y ocupar 
   todo el espacio disponible en la barra, empujando las palabras lejos unas de otras.*/
   height: 100%;
   padding: 0 15px;
-  /*background-color: #8d8b00;*/
+ /*background-color: #8d8b00;*/
 }
+/*fin menu*/
 
-/*proposito y animacion de imagenes principales*/
+/*proposito y animacion de nubes*/
 .acerca-de-nosotros {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 905px;
   display: flex;
   /*background-color: #b2b4d8;*/
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  text-align: center;
   max-width: 4000px;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   box-sizing: border-box;
 }
 .acerca-de-nosotros-texto {
-  font-size: 46px;
-  text-align: left;
+  font-size: 36px;
   height: fit-content;
 }
 .acerca-de-nosotros-texto h1 {
@@ -98,82 +100,58 @@ nav,
 .acerca-de-nosotros-texto p {
   margin: 0;
 }
-.acerca-de-nosotros-imagen {
-  /*padding: 20px;*/
-  max-width: 100%;
-  height: auto;
+/*titulo: ¿que estas buscando?*/
+.subtitulo1 {
+  /*background-color: azure;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+  align-items: center;
+  /*color: #0f1131;*/
+  width: 100%;
 }
-
 .recursos-e-instituciones {
-  padding-top: 40px;
-  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 50px;
   display: flex;
   justify-content: center;
   padding-inline: none;
-  margin: 0;
   /*background-color: #464bb3;*/
 }
-/* Article Padre con Estructura de Contenedores de recursos e instituciones */
+/* divs Contenedores de recursos e instituciones */
 .contenedores-recursos {
   border: 1px solid #efeaff;
-  margin: 0 30px;
-  width: 480px;
-  height: 220px;
+  margin: 10px;
+  width: 280px;
+  height: 120px;
   /*background-color: #fffeea;*/
   /*debe tener un numero fijo para que los 
   hijos usen porcentajes de su padre*/
 }
-/* Div Hijo Contenedor que contiene la imagen y el texto */
-.contenedor-de-recursos-img-y-texto {
-  display: flex;
-  justify-content: center;
-  /*img y texto, uno al lado del otro*/
-  height: 100%;
-  /*100% del espacio del padre*/
-  width: auto;
-  margin: 0;
-  padding: 0px;
-}
 
-/* hijo div que contiene a la imagen */
-.img-recursos {
-  width: 40%;
-  height: 100%;
-  overflow: hidden;
-  /*lo que no quepa, lo oculta*/
-}
-/* La imagen dentro de su caja */
-.img-recursos img {
+/* hijos div que contienen al texto de los recursos */
+.txt-recursos {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  display: block;
-}
-/* hijo div que contiene al texto */
-.txt-recursos {
-  width: 60%;
-  height: 100%;
-  /*estructura para centrar el texto vertical y horizontalmente*/
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: left;
+  align-items: center;
+  text-align: center;
   /*background-color: rgb(201, 80, 33);*/
   overflow: hidden;
 }
-/*quito los espacios entre subtitulos y textos*/
+/*espacios entre subtitulos y textos*/
 .txt-recursos h2 {
-  font-size: 25px;
   margin-bottom: 0;
   padding-bottom: 0;
   padding-left: 10px;
-  /*espacio izquierdo entre texto y img*/
 }
 .txt-recursos p {
   margin-top: 0;
   padding-top: 0;
   padding-left: 10px;
-  /*espacio izquierdo entre texto y img*/
 }
 
 /* Footer */
@@ -181,14 +159,15 @@ footer {
   /*background-color: #b2b4d8;*/
   border-top: 1px white solid;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   text-align: center;
   width: 100%;
-  height: 150px;
+  height: 100px;
   padding-top: 10px;
 }
-.footer {
+/*lista de contactos en footer*/
+.contacto {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -201,26 +180,10 @@ footer {
   gap: 10px;
   /*gap espacia cada li*/
 }
-.footer-img {
-  width: (calc(100% / 3));
-  height: 100%;
-  object-fit: contain;
-  overflow: hidden;
-  background-color: rgb(20, 102, 102);
-}
-/*titulo: ¿que estas buscando?*/
-.subtitulo1 {
-  /*background-color: azure;*/
-  display: flex;
-  padding: 50px;
-  /*color: #0f1131;*/
-  width: 100%;
-  text-align: left;
-  border-top: 1px solid white;
-}
-/*titulo: explora las oportunidades por provincia*/
+
+/*titulo: explora las oportunidades por provincia
 .subtitulo2 {
-  /*background-color: rgb(221, 129, 8);*/
+  /*background-color: rgb(221, 129, 8);
   display: flex;
   justify-content: center;
   width: 100%;
@@ -239,15 +202,15 @@ footer {
   align-items: top;
   justify-content: top;
   height:100%;
-  /*background-color: aqua;*/
+  /*background-color: aqua;
 }
 .seccion-titulo-de-mapa div{
   margin: 40px;
   background-color: bisque;
 }
-/*MAPA*/
+/*MAPA
 .mapa{
-  /*background-color: rgb(48, 92, 212);*/
+  /*background-color: rgb(48, 92, 212);
   height: 100%;
   width: 60%;
-}
+}*/
