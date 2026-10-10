@@ -83,7 +83,7 @@ nav,
   margin: 0 auto;
   box-sizing: border-box;
 }
-.acerca-de-nosotros-texto {
+.acerca-de-nosotros-texto, .subtitulo1 h2{
   font-size: 36px;
   height: fit-content;
 }
@@ -101,16 +101,14 @@ nav,
   align-items: center;
   text-align: center;
   width: 100%;
-  min-height: 200px;
-  padding: 20px;
-  /*color: #0f1131;*/
+  padding:10px;
+  /*background-color: #2f38e0;*/
+  margin-bottom: 0;
 }
 .recursos-e-instituciones {
-  padding-top: 20px;
-  padding-bottom: 50px;
+  height: 300px;
   display: flex;
   justify-content: center;
-  padding-inline: none;
   /*background-color: #464bb3;*/
 }
 /* divs Contenedores de recursos e instituciones */
