@@ -58,7 +58,7 @@ nav{
 }
 /*fin menu*/
 
-/*proposito y animacion de nubes*/
+/*proposito*/
 .acerca-de-nosotros {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -99,7 +99,9 @@ nav{
   height: 300px;
   display: flex;
   justify-content: center;
-  /*background-color: #464bb3;*/
+  align-items: center;
+  text-align: center;
+  background-color: #464bb3;
 }
 /* divs Contenedores de recursos e instituciones */
 .contenedores-recursos {
@@ -111,37 +113,15 @@ nav{
   /*debe tener un numero fijo para que los 
   hijos usen porcentajes de su padre*/
 }
-/* Div Hijo que contiene el texto de los recursos*/
-.contenedor-de-recursos-img-y-texto {
-  height: 100%;
-  /*100% del espacio del padre*/
-  width: 100%;
-  margin: 0;
-  padding: 0px;
-}
-
 /* hijos div que contienen al texto de los recursos */
 .txt-recursos {
   width: 100%;
   height: 100%;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   /*background-color: rgb(201, 80, 33);*/
-  overflow: hidden;
-}
-/*espacios entre subtitulos y textos*/
-.txt-recursos h2 {
-  margin-bottom: 0;
-  padding-bottom: 0;
-  padding-left: 10px;
-}
-.txt-recursos p {
-  margin-top: 0;
-  padding-top: 0;
-  padding-left: 10px;
 }
 
 /* Footer */
