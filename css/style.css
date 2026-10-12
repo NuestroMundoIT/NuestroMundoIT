@@ -233,7 +233,7 @@ footer {
   padding-inline: 30px;
 }
 .disclaimer{
-  flex: 0 0 300px;
+  flex: 0 1 390px;
   /*background-color: red;*/
 }
 /*navegador en footer*/
