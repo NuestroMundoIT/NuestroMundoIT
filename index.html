@@ -4,6 +4,17 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>NMIT</title>
+    <!-- Fuentes de Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
     <!--css --->
     <link rel="stylesheet" href="./css/style.css" />
     <!--favicon--->
@@ -13,94 +24,111 @@
     <header>
       <nav>
         <div class="logo">
-          <h1>NMIT</h1>
+          <div>
+            <div>
+              <h1>NMIT</h1>
+            </div>
+            <div>
+              <p>ARG</p>
+            </div>
+          </div>
+          <p>Nuestro Mundo IT</p>
         </div>
         <ul class="menu">
-          <li><a href="#acerca-de-nosotros">Acerca de</a></li>
-          <li><a href="#recursos-e-instituciones">Recursos</a></li>
-          <li><a href="#contacto">Contacto</a></li>
+          <li>
+            <a href="#acerca-de-nosotros"><p>Acerca de Nosotros</p></a>
+          </li>
+          <li>
+            <a href="#recursos-e-instituciones"><p>Recursos Gratuitos</p></a>
+          </li>
+          <li>
+            <a href="#contacto"><p>Contacto</p></a>
+          </li>
         </ul>
       </nav>
     </header>
     <main>
-      <section id="acerca-de-nosotros" class="acerca-de-nosotros">
-        <div class="acerca-de-nosotros-presentacion">
-          <h2>nuestromundoit</h2>
-          <p>
-            Tu próximo paso empieza acá. <br />
-            Impulsá tus habilidades tech, gratis y en un solo lugar.
-          </p>
-        </div>
-        <div class="made-in-argentina">
-          <h3>MADE IN ARGENTINA</h3>
+      <section class="made-in-argentina">
+        <div>
+          <p>HECHO EN ARGENTINA</p>
         </div>
       </section>
-
+      <section id="acerca-de-nosotros" class="acerca-de-nosotros">
+        <article>
+          <div class="acerca-de-nosotros-presentacion">
+            <h2>nuestromundoit</h2>
+          </div>
+          <p>
+            Tu próximo paso empieza acá. Impulsá tus habilidades tech desde
+            cualquier punto del país,<br />
+            100% gratis y en un solo lugar.
+          </p>
+        </article>
+      </section>
+      <article class="acerca-de-nosotros-redes">
+          <div class="acerca-de-nosotros-redes-instagram">
+            <div>
+              
+            </div>
+            <div>
+              <p>SEGUINOS EN INSTAGRAM</p>
+            </div>
+          </div>
+          <div class="acerca-de-nosotros-redes-discord">
+            <div></div>
+            <div><p>SUMATE A DISCORD</p></div>
+          </div>
+        </article>
       <section class="subtitulo1">
         <div>
-          <h3>
+          <p>
             A continuación podrás encontrar recursos gratuitos que fueron
             recopilados <br />
             de diversas fuentes argentinas e internacionales y se categorizaron
             para facilitar su acceso <br />
-          </h3>
+          </p>
         </div>
       </section>
       <section id="recursos-e-instituciones" class="recursos-e-instituciones">
         <article class="contenedores-recursos">
-          <div class="txt-recursos">
-            <a
-              href="./pages/cursos.html"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>cursos virtuales</h3>
-              <p>aprendizaje en línea autoasistido</p>
-            </a>
+          <div class="txt-recursos-titulo"></div>
+          <div class="txt-recursos-contenido">
+            <h3>Cursos Virtuales</h3>
+            <p>
+              Aprendizaje autoasistido en línea sin costo de multiples
+              plataformas
+            </p>
           </div>
         </article>
         <article class="contenedores-recursos">
-          <div class="txt-recursos">
-            <a href="#" target="_blank" rel="noopener noreferrer">
-              <h3>peliculas y series</h3>
-              <p>busca los films para terminar tus trabajos</p>
-            </a>
+          <div class="txt-recursos-titulo"></div>
+          <div class="txt-recursos-contenido">
+            <h3>Peliculas y Series</h3>
+            <p>busca los films para terminar tus trabajos</p>
           </div>
         </article>
         <article class="contenedores-recursos">
-          <div class="txt-recursos">
-            <a
-              href="./pages/recursos.html"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>recursos gratuitos</h3>
-              <p>libros, software open source y más</p>
-            </a>
+          <div class="txt-recursos-titulo"></div>
+          <div class="txt-recursos-contenido">
+            <h3>Recursos Gratuitos</h3>
+            <p>
+              Libros PDF/EPUB legales, guías de Linux, cheatsheets rápidas, APIs
+              públicas para practicar y tiers libres de hosting.
+            </p>
           </div>
         </article>
         <article class="contenedores-recursos">
-          <div class="txt-recursos">
-            <a
-              href="./pages/eventos.html"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>eventos</h3>
-              <p>presenciales, virtuales e hibridos</p>
-            </a>
+          <div class="txt-recursos-titulo"></div>
+          <div class="txt-recursos-contenido">
+            <h3>Eventos</h3>
+            <p>presenciales, virtuales e hibridos</p>
           </div>
         </article>
         <article class="contenedores-recursos">
-          <div class="txt-recursos">
-            <a
-              href="./pages/universidades.html"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>universidades públicas</h3>
-              <p>carreras virtuales y presenciales, planes de estudio y más</p>
-            </a>
+          <div class="txt-recursos-titulo"></div>
+          <div class="txt-recursos-contenido">
+            <h3>Universidades Públicas</h3>
+            <p>carreras virtuales y presenciales, planes de estudio y más</p>
           </div>
         </article>
       </section>

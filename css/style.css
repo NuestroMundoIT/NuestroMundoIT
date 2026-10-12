@@ -5,9 +5,31 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #0f1131;
+  background-color: #0a0f1d;
   color: #efeaff;
 }
+h1,
+h2 {
+  font-family: "Plus Jakarta Sans";
+}
+p,
+h3 {
+  font-family: "Inter";
+}
+/*font*/
+.plus-jakarta-sans {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 a {
   text-decoration: none;
   color: #efeaff;
@@ -27,9 +49,29 @@ nav {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  text-align: center;
   width: 100%;
   height: 100px;
+}
+.logo {
+  text-align: left;
+}
+.logo div {
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  /*background-color: aqua;*/
+}
+.logo div p {
+  background-color: #2b303f6c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  padding: 3px;
+  padding-inline: 10px;
+  color: #74c0fc;
 }
 /*ul*/
 .menu {
@@ -61,92 +103,127 @@ nav {
 
 /*proposito*/
 .acerca-de-nosotros {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  height: 905px;
+  height: 250px;
+  max-width: 4000px;
+  width: 100%;
   display: flex;
+  margin-top: 0;
   flex-direction: column;
   /*background-color: #b2b4d8;*/
   justify-content: center;
   align-items: center;
   text-align: center;
-  max-width: 4000px;
-  width: 100%;
-  margin: 0 auto;
-  box-sizing: border-box;
 }
-.acerca-de-nosotros-presentacion,
-.subtitulo1 h2 {
+.acerca-de-nosotros-presentacion {
   font-size: 36px;
   height: fit-content;
 }
-.acerca-de-nosotros-texto h1 {
-  margin: 0;
-}
-.acerca-de-nosotros-texto p {
-  margin: 0;
-}
-.made-in-argentina{
-  width: 100%;
-  height: 20%;
+.acerca-de-nosotros-redes {
   display: flex;
   justify-content: center;
+  align-items: top;
+  text-align: center;
+  gap: 20px;
+  width: 100%;
+  height: 450px;
+  /*background-color: #10bb6b6c;*/
+}
+.acerca-de-nosotros-redes div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  padding-top: 10px;
+  gap: 10px;
+  width: 250px;
+  height: 250px;
+  border-radius: 15px;
+  border: 2px solid white;
+  /* background-color: aqua;*/
+}
+.acerca-de-nosotros-redes-instagram div:nth-child(1),
+.acerca-de-nosotros-redes-discord div:nth-child(1) {
+  flex: 2; /* Este ocupará el doble de espacio (ej. 66%) */
+  border: none;
+}
+.acerca-de-nosotros-redes-instagram div:nth-child(2),
+.acerca-de-nosotros-redes-discord div:nth-child(2) {
+  border: none;
+  flex: 1; /* Este ocupará la mitad de espacio que el anterior (ej. 33%) */
+}
+.made-in-argentina {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: #74c0fc;
   /*background-color: aquamarine;*/
 }
-.made-in-argentina h3{
-  border: solid 1px #57a4e4;
-  padding: 10px;
-  border-radius: 15px;
-  background-color: #57a4e4;
+.made-in-argentina div {
+  padding: 5px;
+  padding-inline: 15px;
+  border: 1px solid #74c0fc;
+  border-radius: 11px;
 }
-
 /*titulo: ¿que estas buscando?*/
 .subtitulo1 {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  text-align: center;
   width: 100%;
-  padding-top: 10px;
+  padding-inline-start: 2%;
   /*background-color: #2f38e0;*/
-  margin-bottom: 0;
+  height: 100px;
 }
 .recursos-e-instituciones {
-  height: 400px;
+  height: 600px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: top;
   text-align: center;
   padding-top: 15px;
+  padding-bottom: 15px;
   /*background-color: #464bb3;*/
 }
 /* divs Contenedores de recursos e instituciones */
 .contenedores-recursos {
-  border: 1px solid #efeaff;
+  border-radius: 10px;
   margin: 10px;
-  width: 280px;
-  height: 120px;
-  /*background-color: #fffeea;*/
+  width: calc((100% / 5) - 30px);
+  height: 460px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #2b303f6c;
   /*debe tener un numero fijo para que los 
   hijos usen porcentajes de su padre*/
 }
 /* hijos div que contienen al texto de los recursos */
-.txt-recursos {
-  width: 100%;
-  height: 100%;
+.txt-recursos-titulo {
+  width: 80%;
+  height: 30%;
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
   /*background-color: rgb(201, 80, 33);*/
+}
+.txt-recursos-contenido {
+  width: 80%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: left;
+  text-align: left;
+  gap: 10px;
+  /*background-color: rgb(221, 129, 8);*/
 }
 
 /* Footer */
 footer {
   /*background-color: #b2b4d8;*/
-  border-top: 1px white solid;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
