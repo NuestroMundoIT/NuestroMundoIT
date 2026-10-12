@@ -60,7 +60,7 @@ nav {
   text-align: left;
   justify-content: space-between;
   align-items: center;
-  gap: 5px;
+  gap: 2px;
   /*background-color: aqua;*/
 }
 .logo div p {
@@ -69,7 +69,7 @@ nav {
   justify-content: center;
   align-items: center;
   border-radius: 7px;
-  padding: 3px;
+  padding: 2px;
   padding-inline: 10px;
   color: #74c0fc;
 }
@@ -197,8 +197,6 @@ nav {
   align-items: center;
   justify-content: center;
   background-color: #2b303f6c;
-  /*debe tener un numero fijo para que los 
-  hijos usen porcentajes de su padre*/
 }
 /* hijos div que contienen al texto de los recursos */
 .txt-recursos-titulo {
@@ -231,6 +229,10 @@ footer {
   width: 100%;
   height: 100px;
   padding-top: 10px;
+}
+.disclaimer{
+  width: 20%;
+  text-align: left;
 }
 /*lista de contactos en footer*/
 .contacto {
