@@ -238,14 +238,15 @@ footer {
 .contacto {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: top;
+  text-align: left;
   list-style: none;
   /*background-color: aqua;*/
   width: 100%;
   height: 100%;
   padding: 0;
   margin: 0;
-  gap: 10px;
+  gap: 50px;
   /*gap espacia cada li*/
 }
 
