@@ -1,80 +1,490 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>NMIT</title>
-    <!--css --->
-    <link rel="stylesheet" href="../css/style.css" />
-    <!--favicon--->
-    <link rel="icon" href="../images/logo.jpg" type="image/x-icon" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Cursos Virtuales</title>
+    <!-- Fuentes de Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!--CSS-->
+    <link type="text/css" rel="stylesheet" href="../css/style.css" />
+    <!--favicon-->
+    <link rel="icon" href="../images/logo.png" type="image/x-icon" />
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="nav-header">
         <div class="logo">
-          <h1>NMIT</h1>
+          <div>
+            <div>
+              <h2>NMIT</h2>
+            </div>
+            <div>
+              <p>ARG</p>
+            </div>
+          </div>
+          <p>nuestromundoit</p>
         </div>
         <ul class="menu">
-          <li><a href="..//index.html#acerca-de-nosotros">Volver al Home</a></li>
-          <li><a href="#contacto">Contacto</a></li>
+          <li>
+            <a href="../index.html"><p>Volver al Inicio</p></a>
+          </li>
         </ul>
       </nav>
     </header>
     <main>
-      <section>
-        <div>
-          <h1>cursos virtuales</h1>
-          <p></p>
-        </div>
-      </section>
-      <section>
-        <search>
-          <form action="/buscar" method="get">
-            <label for="caja-busqueda"></label>
-            <input
-              type="search"
-              id="caja-busqueda"
-              name="q"
-              placeholder="Buscar en el sitio: tema de interes"
-              required
-            />
-            <button type="submit">Buscar</button>
-          </form>
-        </search>
-      </section>
-      <section>
-        <article>
-          <div>
-            <p>Hechale un vistaso a las instituciones que ofrecen cursos autoasistidos, virtuales y gratuitos</p>
-          </div>
-        </article>
-        <article>
-          <div></div>
-        </article>
-      </section>
+      <div class="tabla-contenedor">
+        <table class="tabla">
+          <tbody>
+            <tr>
+              <td colspan="4" class="tabla-titutlo">
+                PLATAFORMAS DE CAPACITACIÓN AUTOASISTIDAS, GRATUITAS Y VIRTUALES
+              </td>
+            </tr>
+            <tr>
+              <td>Nombre</td>
+              <td>Enlace</td>
+              <td colspan="2">Aclaración</td>
+            </tr>
+            <tr>
+              <td>Código Facilito</td>
+              <td>
+                <a
+                  target="_blank"
+                  href="https://codigofacilito.com/cursos?search[access]=free&amp;search[order]=highlight"
+                  >Enlace a cursos Gratuitos</a
+                >
+              </td>
+              <td colspan="2">
+                El enlace redirige a los cursos filtrados como gratuitos
+                unicamente.
+              </td>
+            </tr>
+            <tr>
+              <td>Alison.com</td>
+              <td>
+                <a target="_blank" href="https://alison.com/es"
+                  >Alison | Cursos en línea gratis y Aprendizaje en línea</a
+                >
+              </td>
+              <td colspan="2">Todos los cursos son gratuitos</td>
+            </tr>
+            <tr>
+              <td>Desafio latam</td>
+              <td>
+                <a
+                  target="_blank"
+                  href="https://desafiolatam.com/cursos_gratuitos/"
+                  >Cursos gratis · Desafío Latam</a
+                >
+              </td>
+              <td colspan="2">
+                El enlace redirige a los cursos gratuitos unicamente, los
+                bootcamps son de pago.
+              </td>
+            </tr>
+            <tr>
+              <td>Capacitate para el empleo</td>
+              <td>
+                <a target="_blank" href="https://capacitateparaelempleo.org/"
+                  >Capacítate para el empleo</a
+                >
+              </td>
+              <td colspan="2">
+                El enlace redirige al menu con las categorias de los cursos.
+                <span style="font-weight: bold"
+                  >Todos los cursos son gratuitos</span
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>Santander Open Academy</td>
+              <td>
+                <a
+                  target="_blank"
+                  href="https://app.santanderopenacademy.com/es/program/search?resourceType=SOA_COURSE&amp;resourceType=LMS_COURSE&amp;status=OPEN&amp;mode=ONLINE&amp;countries=AR"
+                  >Cursos Santander Open Academy</a
+                >
+              </td>
+              <td colspan="2">
+                El enlace redirige a los cursos filtrados como virtuales y con
+                inscripción abierta disponibles en Argentina
+              </td>
+            </tr>
+            <tr>
+              <td>Plataforma Capacitar</td>
+              <td>
+                <a
+                  target="_blank"
+                  href="https://www.argentina.gob.ar/economia/capacitar/oferta-formativa"
+                  >Oferta formativa | Argentina.gob.ar</a
+                >
+              </td>
+              <td colspan="2">
+                Al desplazarse hacia abajo de la página podrán ver todas las
+                capacitaciones disponibles y filtrar acorde a sus intereses.
+                <span style="font-weight: bold"
+                  >Todos los cursos son gratuitos</span
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>Edutin</td>
+              <td>
+                <a target="_blank" href="https://edutin.com/cursos-gratis"
+                  >Cursos Gratis con Certificado</a
+                >
+              </td>
+              <td colspan="2">
+                Se puede cursar de forma gratuita, se debe abonar para obtener
+                los certificados
+              </td>
+            </tr>
+            <tr>
+              <td>Coursera</td>
+              <td>
+                <a
+                  target="_blank"
+                  href="https://www.coursera.org/courses?query=cursos%20gratis"
+                  >Best Cursos Gratis Courses &amp; Certifications [2026] |
+                  Coursera</a
+                >
+              </td>
+              <td colspan="2">
+                El enlace redirige a los cursos gratuitos unicamente, los que
+                tiene la etiqueta de &quot;Prueba gratuita&quot; pueden requerir
+                un pago posterior.
+              </td>
+            </tr>
+            <tr>
+              <td>edX</td>
+              <td>
+                <a
+                  target="_blank"
+                  href="https://www.edx.org/courses?q=free+online+courses"
+                  >Best free online courses &amp; certificates | edX</a
+                >
+              </td>
+              <td colspan="2">
+                El enlace redirige a los cursos gratuitos unicamente, fuera de
+                este filtro se encuentran los cursos de pago.
+              </td>
+            </tr>
+            <tr>
+              <td>Khan Academy</td>
+              <td>
+                <a target="_blank" href="https://es.khanacademy.org/"
+                  >Khan Academy</a
+                >
+              </td>
+              <td colspan="2">Todos los cursos son gratuitos</td>
+            </tr>
+            <tr>
+              <td>Udemy</td>
+              <td>
+                <a
+                  target="_blank"
+                  href="https://www.udemy.com/es/courses/free/?srsltid=AU7gw4UJVdBEU77iHCLGMBtOpHRIG6oLWU-2puy06xufNac8ossER3Ii"
+                  >Más de 450 cursos en línea gratuitos: lo mejor de 2026 |
+                  Aprendizaje y certificación de Udemy</a
+                >
+              </td>
+              <td colspan="2">
+                El enlace redirige a los cursos gratuitos unicamente, fuera de
+                este filtro se encuentran los cursos de pago.
+              </td>
+            </tr>
+            <tr>
+              <td>Google Skillshop</td>
+              <td>
+                <a
+                  target="_blank"
+                  href="https://skillshop.withgoogle.com/intl/es-419_ALL/"
+                  >Domina las herramientas de Google que usas en tu trabajo con
+                  capacitaciones en línea</a
+                >
+              </td>
+              <td colspan="2">Todos los cursos son gratuitos</td>
+            </tr>
+            <tr>
+              <td>Microsoft Learn</td>
+              <td>
+                <a
+                  target="_blank"
+                  href="https://learn.microsoft.com/es-es/training/browse/"
+                  >Examinar todos los cursos, rutas de aprendizaje y módulos -
+                  Training | Microsoft Learn</a
+                >
+              </td>
+              <td colspan="2">
+                Todos los cursos son gratuitos pero los exámenes de
+                certificación oficial se deben abonar.
+              </td>
+            </tr>
+            <tr>
+              <td>IBM SkillsBuild</td>
+              <td>
+                <a
+                  target="_blank"
+                  href="https://skillsbuild.org/es/learning-catalog/university-catalog"
+                  >Catálogo de formación de IBM SkillsBuild | Cursos gratuitos
+                  sobre IA, ciberseguridad, datos y tecnología</a
+                >
+              </td>
+              <td colspan="2">Todos los cursos son gratuitos</td>
+            </tr>
+            <tr>
+              <td>Meta Blueprint</td>
+              <td>
+                <a
+                  target="_blank"
+                  href="https://trainingworkshops.facebookblueprint.com/student/catalog"
+                  >Meta Blueprint Training Workshops</a
+                >
+              </td>
+              <td colspan="2">
+                Todos los cursos son gratuitos pero los exámenes de
+                certificación oficial se deben abonar.
+              </td>
+            </tr>
+            <tr>
+              <td>freeCodeCamp</td>
+              <td>
+                <a target="_blank" href="https://www.freecodecamp.org/espanol/"
+                  >Desarrolla tus habilidades gratis.</a
+                >
+              </td>
+              <td colspan="2">Todos los cursos son gratuitos</td>
+            </tr>
+            <tr>
+              <td>The Odin Project</td>
+              <td>
+                <a target="_blank" href="https://www.theodinproject.com/"
+                  >The Odin Project</a
+                >
+              </td>
+              <td class="s6" colspan="2">
+                Todos los cursos son gratuitos pero solo en inglés
+              </td>
+            </tr>
+            <tr>
+              <td>Duolingo</td>
+              <td>
+                <a target="_blank" href="https://es.duolingo.com/courses/all"
+                  >Cursos de idiomas gratis - Duolingo</a
+                >
+              </td>
+              <td colspan="2">
+                El enlace redirige a los cursos gratuitos unicamente
+              </td>
+            </tr>
+            <tr>
+              <td>Canva Design School</td>
+              <td>
+                <a
+                  target="_blank"
+                  href="https://www.canva.com/design-school/courses/"
+                  >Courses - Canva Design School</a
+                >
+              </td>
+              <td colspan="2">Todos los cursos son gratuitos</td>
+            </tr>
+            <tr>
+              <td>CS50 Harvard</td>
+              <td>
+                <a
+                  target="_blank"
+                  href="https://pll.harvard.edu/catalog?topics%5B702%5D=702&amp;price%5B1%5D=1&amp;max_price=&amp;date%5B1%5D=1&amp;available_anytime=1&amp;start_date=&amp;modality%5BBlended%5D=Blended&amp;modality%5BOnline%5D=Online&amp;modality%5BOnlineLive%5D=OnlineLive&amp;keywords=&amp;url="
+                  >Cursos de Harvard</a
+                >
+              </td>
+              <td colspan="2">
+                El enlace redirige a los cursos gratuitos unicamente, fuera de
+                este filtro se encuentran los cursos de pago.
+              </td>
+            </tr>
+            <tr>
+              <td>Google Career Certificates</td>
+              <td>
+                <a
+                  target="_blank"
+                  href="https://grow.google/intl/es/courses-and-tools/?category=career&amp;certificate=free-of-charge"
+                  >Cursos online y formación en marketing digital - Grow with
+                  Google</a
+                >
+              </td>
+              <td colspan="2">
+                El enlace redirige a los cursos gratuitos unicamente, fuera de
+                este filtro se encuentran los cursos de pago.
+              </td>
+            </tr>
+            <tr>
+              <td>OpenLearn</td>
+              <td>
+                <a target="_blank" href="https://www.open.edu/openlearn/"
+                  >The home of free learning from The Open University |
+                  OpenLearn</a
+                >
+              </td>
+              <td colspan="2">
+                Todos los cursos son gratuitos, solo en Inglés
+              </td>
+            </tr>
+            <tr>
+              <td>MIT OpenCourseWare</td>
+              <td>
+                <a target="_blank" href="https://ocw.mit.edu/"
+                  >MIT OpenCourseWare</a
+                >
+              </td>
+              <td colspan="2">
+                Todos los cursos son gratuitos, solo en Inglés
+              </td>
+            </tr>
+            <tr>
+              <td>Stanford Online</td>
+              <td>
+                <a
+                  target="_blank"
+                  href="https://online.stanford.edu/free-courses"
+                  >Free Online Courses | Stanford Online</a
+                >
+              </td>
+              <td colspan="2">
+                Todos los cursos son gratuitos, solo en Inglés
+              </td>
+            </tr>
+            <tr>
+              <td>Mooc</td>
+              <td>
+                <a
+                  target="_blank"
+                  href="https://mooc.es/cursos/?_filtro_idioma=espanol"
+                  >https://mooc.es/cursos/</a
+                >
+              </td>
+              <td colspan="2">Buscador de Cursos gratuitos</td>
+            </tr>
+            <tr>
+              <td>Academia Digitalers</td>
+              <td>
+                <a
+                  target="_blank"
+                  href="https://academiadigitalers.personal.com.ar/"
+                  >Academia Digitalers</a
+                >
+              </td>
+              <td colspan="2">Todos los cursos son gratuitos</td>
+            </tr>
+            <tr>
+              <td>Fundación YPF</td>
+              <td>
+                <a target="_blank" href="https://lab.fundacionypf.org/tec"
+                  >Cursos Online - Formación Técnica - Fundación YPF</a
+                >
+              </td>
+              <td colspan="2">Todos los cursos son gratuitos</td>
+            </tr>
+            <tr>
+              <td>Todo Code</td>
+              <td>
+                <a target="_blank" href="https://todocodeacademy.com/cursos/"
+                  >Cursos - TodoCode</a
+                >
+              </td>
+              <td colspan="2">Algunos cursos son gratuitos</td>
+            </tr>
+            <tr>
+              <td>Conectar Igualdad</td>
+              <td>
+                <a
+                  target="_blank"
+                  href="https://formacion.conectarigualdad.edu.ar/cursos"
+                  >Conectar Igualdad</a
+                >
+              </td>
+              <td colspan="2">Todos los cursos son gratuitos</td>
+            </tr>
+            <tr>
+              <td>Empretec Argentina</td>
+              <td>
+                <a target="_blank" href="https://www.empretec.org.ar/escuela"
+                  >https://www.empretec.org.ar/</a
+                >
+              </td>
+              <td colspan="2">
+                capacitaciones gratuitas orientadas a negocios
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a
+                  target="_blank"
+                  href="https://formacion.conectarigualdad.edu.ar/cursos"
+                  >Talento Tech</a
+                >
+              </td>
+              <td>
+                <a
+                  target="_blank"
+                  href="https://talentotech.bue.edu.ar/home#ticmas"
+                  >TalentoTech</a
+                >
+              </td>
+              <td colspan="2">Todos los cursos son gratuitos</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </main>
     <footer>
+      <section class="disclaimer">
+        <h3>Nuestro Mundo IT</h3>
+        <p>
+          Plataforma diseñada exclusivamente con fines informativos y educativos
+          para centralizar el acceso a recursos públicos y gratuitos.
+        </p>
+      </section>
+      <nav class="nav-footer">
+        <section class="menu-footer">
+          <div class="contacto">
+            <h3>CATEGORIAS</h3>
+            <ul>
+              <a href="./pages/cursos.html"><li>Cursos Gratuitos</li></a>
+              <a href="./pages/recursos.html"><li>Recursos Gratuitos</li></a>
+              <a href="./pages/eventos.html"><li>Eventos</li></a>
+              <a href="#"><li>Peliculas y Series</li></a>
+            </ul>
+          </div>
+          <div class="contacto">
+            <h3>COMUNIDAD</h3>
+            <ul>
+              <li>Instagram</li>
+              <li>Discord</li>
+            </ul>
+          </div>
+          <div class="contacto">
+            <h3>REPORTANOS</h3>
+            <ul>
+              <li>Sugeri Material Educativo</li>
+              <li>Reporta Enlaces Caidos</li>
+            </ul>
+          </div>
+        </section>
+      </nav>
       <div>
-        <h1>NMIT</h1>
+        <p>&copy; 2026</p>
       </div>
-      <div id="contacto">
-        <ul class="contacto">
-          <li>
-            <a
-              href="https://www.instagram.com/nuestromundoit/"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Instagram</a
-            >
-          </li>
-          <li>
-            <a href="mailto:nuestromundoit@gmail.com">Contacto por email </a>
-          </li>
-          <li><a href="#">Comunidad</a></li>
-        </ul>
-      </div>
-      <p>&copy; 2026</p>
     </footer>
   </body>
 </html>

@@ -12,7 +12,7 @@ h1,
 h2 {
   font-family: "Plus Jakarta Sans";
 }
-p,
+p,td,th,
 h3 {
   font-family: "Inter";
 }
@@ -291,4 +291,31 @@ footer {
   /*background-color: #74c0fc;*/
   padding: 0;
   margin: 0;
+}
+
+/*PAGINA DE CURSOS VIRTUALES*/
+th, td{
+    border:1px solid, rgb(235, 221, 221);
+    padding: 10px;
+}
+table{
+    border-collapse: collapse;
+    background-color: #2b303f6c;
+}
+.tabla-contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+    width: 100%;
+}
+.tabla-titutlo{
+  text-align: center;
+}
+.tabla{
+    width: 60%;
+    height: 80%;
+    margin:100px;
+    flex-direction: column;
+    text-align: left;
 }
