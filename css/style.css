@@ -7,12 +7,15 @@
 body {
   background-color: #0a0f1d;
   color: #efeaff;
+  height: 100%;
 }
 h1,
 h2 {
   font-family: "Plus Jakarta Sans";
 }
-p,td,th,
+p,
+td,
+th,
 h3 {
   font-family: "Inter";
 }
@@ -44,7 +47,7 @@ header {
   /*background-color: #555fe9;*/
 }
 /*padre de etiqueta ul*/
-.nav-header{
+.nav-header {
   /*background-color: red;*/
   display: flex;
   justify-content: space-evenly;
@@ -199,38 +202,38 @@ header {
   text-align: left;
   background-color: #2b303f6c;
   /* imagen de fondo */
-  background-size: cover;       /* Hace que la imagen cubra todo el recuadro */
-  background-position: center;  /* Centra la imagen */
+  background-size: cover; /* Hace que la imagen cubra todo el recuadro */
+  background-position: center; /* Centra la imagen */
   background-repeat: no-repeat;
   position: relative;
-  overflow: hidden;             /* Asegura que los bordes respeten el diseño */
+  overflow: hidden; /* Asegura que los bordes respeten el diseño */
 }
-.img-cursos-virtuales{
-  background-image: url('../images/cursos-virtuales.jpg');
+.img-cursos-virtuales {
+  background-image: url("../images/cursos-virtuales.jpg");
   /*Foto de cottonbro studio: https://www.pexels.com/es-es/foto/persona-ordenador-portatil-trabajando-internet-7013241/*/
 }
-.img-pelis-series{
-  background-image: url('../images/pelis-y-series.jpg');
+.img-pelis-series {
+  background-image: url("../images/pelis-y-series.jpg");
   /*Foto de İNZİLE DAL: https://www.pexels.com/es-es/foto/fotografia-de-una-sala-de-cine-14746411/*/
 }
-.img-recursos{
-  background-image: url('../images/recursos-gratis.jpg') ;
+.img-recursos {
+  background-image: url("../images/recursos-gratis.jpg");
   /*Foto de panumas nikhomkhai: https://www.pexels.com/es-es/foto/azul-industria-internet-conexion-17489156/*/
 }
-.img-evento{
+.img-evento {
   background-image: url(../images/eventos.jpg);
   /*Foto de Atlantic Ambience: https://www.pexels.com/es-es/foto/gente-sentado-multitud-muchedumbre-9275222/*/
 }
-.img-universidades{
-  background-image: url('../images/universidades-gratuitas.jpg');
+.img-universidades {
+  background-image: url("../images/universidades-gratuitas.jpg");
   /*Foto de Tomás Asurmendi: https://www.pexels.com/es-es/foto/muro-de-grafitis-y-edificio-antiguo-en-cordoba-argentina-32085592/*/
 }
 .contenedores-recursos::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
-  bottom: 0; 
-  width: 100%; 
+  bottom: 0;
+  width: 100%;
   height: 100%;
   background: linear-gradient(to top, rgba(1, 1, 1, 1), rgba(1, 1, 1, 0.02));
   z-index: 1;
@@ -261,12 +264,12 @@ footer {
   margin: 0 auto;
   padding-inline: 30px;
 }
-.disclaimer{
+.disclaimer {
   flex: 0 1 390px;
   /*background-color: red;*/
 }
 /*navegador en footer*/
-.nav-footer{
+.nav-footer {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -274,9 +277,9 @@ footer {
   gap: 20px;
   /*background-color: rgb(151, 103, 40);*/
 }
-.nav-footer section{
+.nav-footer section {
   display: flex;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   height: 100%;
   /*background-color: beige;*/
   gap: 10px;
@@ -294,7 +297,7 @@ footer {
 }
 
 /*PAGINA DE CURSOS VIRTUALES*/
-th, td{
+/*th, td{
     border:1px solid, rgb(235, 221, 221);
     padding: 10px;
 }
@@ -318,4 +321,31 @@ table{
     margin:100px;
     flex-direction: column;
     text-align: left;
+}*/
+
+.contenedor-cursos {
+  /*background-color: #74c0fc;*/
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(5, calc((100%) / 5.8));
+  padding-top: 30px;
+  padding-bottom: 50px;
+  gap: 30px;
+  border: none;
+}
+
+.contenedor-cursos div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 10px;
+  height: 150px;
+  width: 260px;
+  margin: 0 auto;
+  cursor: pointer;
+  /*background-color: rgb(46, 114, 114);*/
 }
