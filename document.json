@@ -1,0 +1,317 @@
+{
+    "cursos_virtuales": [
+        {
+            "plataforma": "Codigo Facilito",
+            "categoria": "cursos gratuito",
+            "enlace": "https://codigofacilito.com/cursos?search[access]=free&search[order]=highlight",
+            "aclaracion": ""
+        },
+        {
+            "plataforma": "Alison",
+            "categoria": "cursos gratuito",
+            "enlace": "https://alison.com/es",
+            "aclaracion": ""
+        },
+        {
+            "plataforma": "Desafio Latam",
+            "categoria": "cursos gratuito",
+            "enlace": "https://desafiolatam.com/cursos_gratuitos/",
+            "aclaracion": ""
+        },
+        {
+            "plataforma": "Santander Open Cademy",
+            "categoria": "cursos gratuito",
+            "enlace": "https://app.santanderopenacademy.com/es/program/search?resourceType=SOA_COURSE&resourceType=LMS_COURSE&status=OPEN&mode=ONLINE&countries=AR",
+            "aclaracion": ""
+        },
+        {
+            "plataforma": "Plataforma Capacitar",
+            "categoria": "cursos gratuito",
+            "enlace": "https://www.argentina.gob.ar/economia/capacitar/oferta-formativa",
+            "aclaracion": ""
+        },
+        {
+            "plataforma": "Edutin",
+            "categoria": "cursos gratuito",
+            "enlace": "https://edutin.com/cursos-gratis",
+            "aclaracion": ""
+        },
+        {
+            "plataforma": "edX",
+            "categoria": "cursos gratuito",
+            "enlace": "https://www.edx.org/courses?q=free+online+courses",
+            "aclaracion": ""
+        },
+        {
+            "plataforma": "Khan Academy",
+            "categoria": "cursos gratuito",
+            "enlace": "https://es.khanacademy.org/",
+            "aclaracion": ""
+        },
+        {
+            "plataforma": "Google Skillshop",
+            "categoria": "cursos gratuito",
+            "enlace": "https://skillshop.withgoogle.com/intl/es-419_ALL/",
+            "aclaracion": ""
+        },
+        {
+            "plataforma": "Microsoft Learn",
+            "categoria": "cursos gratuito",
+            "enlace": "https://skillsbuild.org/es/learning-catalog/university-catalog",
+            "aclaracion": ""
+        },
+        {
+            "plataforma": "IBM SkillBuild",
+            "categoria": "cursos gratuito",
+            "enlace": "https://skillsbuild.org/es/learning-catalog/university-catalog",
+            "aclaracion": ""
+        },
+        {
+            "plataforma": "Meta Blueprint",
+            "categoria": "cursos gratuito",
+            "enlace": "https://trainingworkshops.facebookblueprint.com/student/catalog",
+            "aclaracion": ""
+        },
+        {
+            "plataforma": "freeCodeCamp",
+            "categoria": "cursos gratuito",
+            "enlace": "https://www.freecodecamp.org/espanol/",
+            "aclaracion": ""
+        },
+        {
+            "plataforma": "The Odin Project",
+            "categoria": "cursos gratuito",
+            "enlace": "https://www.theodinproject.com/",
+            "aclaracion": ""
+        },
+        {
+            "plataforma": "Canva Desing School",
+            "categoria": "cursos gratuito",
+            "enlace": "https://www.canva.com/design-school/courses/",
+            "aclaracion": ""
+        },
+        {
+            "plataforma": "CS50 Harvard",
+            "categoria": "cursos gratuito",
+            "enlace": "https://pll.harvard.edu/catalog?topics%5B702%5D=702&price%5B1%5D=1&max_price=&date%5B1%5D=1&available_anytime=1&start_date=&modality%5BBlended%5D=Blended&modality%5BOnline%5D=Online&modality%5BOnlineLive%5D=OnlineLive&keywords=&url=",
+            "aclaracion": ""
+        },
+        {
+            "plataforma": "Google Career Certificates",
+            "categoria": "cursos gratuito",
+            "enlace": "https://grow.google/intl/es/courses-and-tools/?category=career&certificate=free-of-charge",
+            "aclaracion": ""
+        },
+        {
+            "plataforma": "MIT OpenCourseWare",
+            "categoria": "cursos gratuito",
+            "enlace": "https://ocw.mit.edu/",
+            "aclaracion": ""
+        },
+        {
+            "plataforma": "Stanford Online",
+            "categoria": "cursos gratuito",
+            "enlace": "https://online.stanford.edu/free-courses",
+            "aclaracion": ""
+        },
+        {
+            "plataforma": "Mooc",
+            "categoria": "cursos gratuito",
+            "enlace": "https://mooc.es/cursos/?_filtro_idioma=espanol",
+            "aclaracion": ""
+        },
+        {
+            "plataforma": "Academia Digitalers",
+            "categoria": "cursos gratuito",
+            "enlace": "https://academiadigitalers.personal.com.ar/",
+            "aclaracion": ""
+        },
+        {
+            "plataforma": "Fundación YPF",
+            "categoria": "cursos gratuito",
+            "enlace": "https://lab.fundacionypf.org/tec",
+            "aclaracion": ""
+        },
+        {
+            "plataforma": "Todo Code",
+            "categoria": "cursos gratuito",
+            "enlace": "https://todocodeacademy.com/cursos/",
+            "aclaracion": ""
+        },
+        {
+            "plataforma": "Conectar Igualdad",
+            "categoria": "cursos gratuito",
+            "enlace": "https://formacion.conectarigualdad.edu.ar/cursos",
+            "aclaracion": ""
+        },
+        {
+            "plataforma": "Empretec Argentina",
+            "categoria": "cursos gratuito",
+            "enlace": "https://www.empretec.org.ar/escuela",
+            "aclaracion": ""
+        },
+        {
+            "plataforma": "Talento tech",
+            "categoria": "cursos gratuito",
+            "enlace": "https://talentotech.bue.edu.ar/home#ticmas",
+            "aclaracion": ""
+        },
+        {
+            "plataforma": "",
+            "categoria": "",
+            "enlace": "",
+            "aclaracion": ""
+        }
+    ],
+    "carreras_virtuales_y_gratuitas": [
+        {
+            "nombre": "Tecnicatura en Informática de Gestión ",
+            "universidad": "UNLPam",
+            "enlace": "https://exactas.unlpam.edu.ar/carreras/tecnicaturas/tecnicatura-en-informatica-de-gestion-distancia/",
+            "provincia": "La Pampa",
+            "aclaracion": ""
+        },
+        {
+            "nombre": "Licenciatura en Ciberdefensa",
+            "universidad": "FADENA",
+            "enlace": "https://undef.edu.ar/fadena/carreras-de-grado/licciberdefensa/",
+            "provincia": "CABA",
+            "aclaracion": ""
+        },
+        {
+            "nombre": "Licenciatura en Analisis y Gestión de Datos",
+            "universidad": "UNSL",
+            "enlace": "https://www.fcejs.unsl.edu.ar/index.php/lagd/",
+            "provincia": "San Luis",
+            "aclaracion": ""
+        },
+        {
+            "nombre": "Tecnicatura Universitaria en Desarrollo Web",
+            "universidad": "UNER",
+            "enlace": "https://www.fcad.uner.edu.ar/tecnicatura-universitaria-en-desarrollo-web/",
+            "provincia": "Entre Rios",
+            "aclaracion": ""
+        },
+        {
+            "nombre": "Tecnicatura Universitaria en Desarrollo Web",
+            "universidad": "UNDeC",
+            "enlace": "https://www.undec.edu.ar/tecnicatura-universitaria-en-ciencia-de-datos/",
+            "provincia": "La Rioja",
+            "aclaracion": ""
+        },
+        {
+            "nombre": "Tecnicatura Universitaria en Ciencia de Datos",
+            "universidad": "UNDeC",
+            "enlace": "https://www.undec.edu.ar/tecnicatura-universitaria-en-desarrollo-web/",
+            "provincia": "La Rioja",
+            "aclaracion": ""
+        },
+        {
+            "nombre": "Tecnicatura Universitaria en Desarrollo de Software",
+            "universidad": "ULP",
+            "enlace": "https://ulp.edu.ar/paginas/oferta_educativa/tecnicaturas/ict_tuds.php",
+            "provincia": "San Luis",
+            "aclaracion": "ser nacidos en la Provincia de San Luis ó acreditar2 o más años de residencia en la misma. Adicionalmente, deberán poseer domicilio actualizado en la provincia de San Luis."
+        },
+        {
+            "nombre": "",
+            "universidad": "",
+            "enlace": "",
+            "provincia": "",
+            "aclaracion": ""
+        }
+    ],
+    "recursos_opensource": [
+        {
+            "nombre":"Biblioteca Abierta",
+            "enlace":"https://openlibrary.org/",
+            "descripcion":"proyecto de acceso abierto de la organización sin ánimo de lucro Archivo de Internet. Un catalogo para cada libro jamás publicado."
+        },
+        {
+            "nombre":"Internet Archive",
+            "enlace":"https://archive.org/",
+            "descripcion":"biblioteca sin fines de lucro que ofrece millones de textos, películas, software, música, sitios web gratuitos y mucho más."
+        },
+        {
+            "nombre":"Biblioteca Científica Electrónica en Línea",
+            "enlace":"https://www.scielo.org/es/",
+            "descripcion":"Scientific Electronic Library Online es una biblioteca electrónica que conforma una red iberoamericana de colecciones de revistas científicas en texto completo y con acceso abierto, libre y gratuito."
+        },
+          {
+            "nombre":"educ.ar portal",
+            "enlace":"https://www.educ.ar/recursos",
+            "descripcion":"portal educativo de la Secretaría de Educación dependiente del Ministerio de Capital Humano y se propone proveer a toda la comunidad educativa de recursos digitales seleccionados y especializados para mejorar los procesos pedagógicos"
+        },
+        {
+            "nombre":"Repositorio Digital Institucional de la Universidad de Buenos Aires",
+            "enlace":"https://repositoriouba.sisbi.uba.ar/gsdl/cgi-bin/library.cgi?a=p&p=home&l=es&w=utf-8",
+            "descripcion":"El repositorio es libre y gratuito y los contenidos se ponen a disposición de los usuarios para uso privado o con fines de investigación y educativos."
+        },
+        {
+            "nombre":"Repositorio Digital de Acceso Abierto",
+            "enlace":"https://repositorio.unahur.edu.ar/home",
+            "descripcion":"Publicaciones científicas y académicas estén disponibles de forma gratuita y sin restricciones en internet para cualquier persona."
+        },
+            {
+            "nombre":"Proyecto Gutenberg",
+            "enlace":"https://www.gutenberg.org/",
+            "descripcion":"biblioteca de libros electrónicos gratuitos."
+        },
+        {
+            "nombre":"",
+            "enlace":"https://ebookfoundation.github.io/free-programming-books/books/free-programming-books-es.html",
+            "descripcion":""
+        },
+        {
+            "nombre":"OpenLibro",
+            "enlace":"https://openlibro.com/",
+            "descripcion":"biblioteca digital de libros gratuitos y legales en PDF, especializada en programación, informática, ciencia y tecnología. Todos los libros se distribuyen bajo licencias libres — Creative Commons, MIT, GPL, GFDL y otras — que permiten su descarga, lectura y uso legal."
+        },
+          {
+            "nombre":"Openverse",
+            "enlace":"https://openverse.org/es/",
+            "descripcion":"biblioteca de fotos, imágenes y audios gratuitos, disponible para uso gratuito"
+        },
+        {
+            "nombre":"UTNianos",
+            "enlace":"https://utnianos.com.ar/",
+            "descripcion":" es una comunidad y un foro de discusión en línea (utnianos.com.ar) creado por y para estudiantes, docentes y colaboradores de la Universidad Tecnológica Nacional (UTN) de Argentina"
+        },
+        {
+            "nombre":"JSTOR",
+            "enlace":"https://www.jstor.org/",
+            "descripcion":"JSTOR reúne revistas revisadas por pares, libros electrónicos académicos, fuentes primarias y millones de imágenes en una plataforma segura. Como socio sin fines de lucro de bibliotecas, museos y editoriales, seleccionamos y preservamos el contenido para que los enlaces se mantengan estables y las citas sean fiables. "
+        },
+        {
+            "nombre":"Standard Ebooks",
+            "enlace":"https://standardebooks.org/",
+            "descripcion":"Libros electrónicos gratuitos y sin restricciones, cuidadosamente elaborados para el verdadero amante de la lectura."
+        },
+        {
+            "nombre":"Open Textbook Library",
+            "enlace":"https://open.umn.edu/opentextbooks/",
+            "descripcion":"La Biblioteca de Libros de Texto Abiertos, que actualmente ofrece 1887 libros de texto abiertos, cuenta con el apoyo de la Red de Educación Abierta. Los libros de texto de acceso abierto son licenciados por autores y editores para su uso y adaptación gratuitos. Descárguelos, edítelos y distribúyalos sin costo alguno."
+        },
+          {
+            "nombre":"OAPEN Library",
+            "enlace":"https://www.oapen.org/",
+            "descripcion":"OAPEN conecta a bibliotecas  , editores  , investigadores  y financiadores  con una infraestructura global para libros de acceso abierto revisados ​​por pares, con el fin de impulsar la investigación y el bien público."
+        },
+        {
+            "nombre":"Textos.info",
+            "enlace":"https://www.textos.info/",
+            "descripcion":"Biblioteca digital abierta, legal y gratuita para textos y libros en formato electrónico: online, PDF, ePub, Mobi."
+        },
+        {
+            "nombre":"Facialix",
+            "enlace":"https://facialix.com/",
+            "descripcion":"Facialix es un sitio de noticias especializado en ciencia, tecnología y oportunidades educativas como cursos gratuitos y certificaciones."
+        },
+        {
+            "nombre":"",
+            "enlace":"",
+            "descripcion":""
+        }
+    
+    ]
+}
